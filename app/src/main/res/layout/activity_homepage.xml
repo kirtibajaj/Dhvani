@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage"
+    android:background="#ffffff"    >
+
+   <Button
+       android:layout_width="220dp"
+       android:layout_height="150dp"
+       android:layout_marginTop="60dp"
+       android:layout_marginLeft="80dp"
+       android:text="Daily Activities"
+       android:textSize="40dp"
+       android:id="@+id/Daily"
+       android:background="@drawable/dailyactivity"
+       android:textColor="#000000"
+       android:textStyle="bold"
+       android:fontFamily="sans-serif"
+       style="@style/Widget.AppCompat.Button.Colored"
+       android:textAppearance="@dimen/cardview_default_elevation"
+       android:textColorHighlight="@color/colorPrimary"
+       android:textColorLink="@color/colorAccent"
+
+
+       />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:background="#2b8205"
+    android:layout_marginTop="250dp"/>
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="40dp"
+        android:text="Leisure Activities"
+        android:id="@+id/Leisure"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:requiresFadingEdge="vertical"
+        android:includeFontPadding="true"
+        android:background="@drawable/dailyactivity"
+        android:textColor="#000000"
+        android:textColorLink="@color/colorAccent"
+        android:textAppearance="@dimen/cardview_default_elevation"
+        />
+
+</RelativeLayout>

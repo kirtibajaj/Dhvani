@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Leisure_Activity"
+
+    >
+
+    <ListView
+        android:id="@+id/LeisureList"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:clipToPadding="false"
+        android:minWidth="200dp"
+        android:background="#fff"
+        android:padding="0dp"
+        android:foregroundGravity="clip_horizontal"
+        android:dividerHeight="10dp"
+        />
+
+</android.support.constraint.ConstraintLayout>

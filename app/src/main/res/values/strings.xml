@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dhvani</string>
+    <string-array name="array_daily_activity">
+        <item>Eating</item>
+        <item>Bathing</item>
+        <item>Brushing</item>
+        <item>Washing Clothes</item>
+        <item>Watching TV</item>
+        <item>Dress up</item>
+        <item>Taking Medicine</item>
+        <item>Drinking </item>
+
+    </string-array>
+    <string-array name="array_leisure_activity">
+        <item>Reading books</item>
+        <item>Drawing</item>
+        <item>Listening music</item>
+        <item>Reading newspaper</item>
+        <item>Playing cards</item>
+        <item>Playing music instruments</item>
+        <item>walking</item>
+        <item>Cooking</item>
+
+
+    </string-array>
+
+</resources>
